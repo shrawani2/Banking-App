@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bankapp-container
-        image: shrawani2/bankapp-app
+        image: shrawani2/financeme-bankapp:latest
         ports:
         - containerPort: 8082
 ---
